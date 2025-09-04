@@ -37,7 +37,7 @@ def tasks(request):
         'tasks': tasks
     })
 
-def creat_task(request):
+def create_task(request):
 
     if request.method == 'GET':
         return render(request, 'create_task.html',{
