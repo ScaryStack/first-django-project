@@ -3,9 +3,9 @@
 {%block content%}
 
     <h1>Create Project</h1>
-    {% csrf_token %}
 
     <form method="POST">
+        {% csrf_token %}
         {{form}}
         <button>
             Save
